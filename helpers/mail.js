@@ -14,7 +14,7 @@ const sendMail = (name, email, subject, text, cb) => {
     const mailOptions = {
         sender: name,  // Nombre del remitente
         from: email,  //Correo remitente
-        to: 'correo@empresa', // Correo destinatario
+        to: 'gerencia@globalelectricsv.com', // Correo destinatario
         subject: subject, //Asunto
         text: text  //Cuerpo del correo
     };
